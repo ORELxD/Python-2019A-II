@@ -4,7 +4,7 @@ def print_params(msg, *numbers, **pairs):
     print("pairs",pairs)
 
 
-print_params("hello",1,2,3,4,"TEST",name="bob",age=13,5)
+print_params("hello",1,2,3,4,"TEST",name="bob",age=13)
 
 """
 OUTPUT:
