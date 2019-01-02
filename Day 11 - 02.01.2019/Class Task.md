@@ -18,6 +18,7 @@
 * Run through the array with a loop, and for each element do the following actions:
     * call `set_age` - with a random number (between -20 to 200)
     * call `set_name` - with a random name from this array: `["Tom", "li" , "Bob" , "Alice" , "Clarc" , "Adam" , "Sean"]`
-    * call `set_eye_color` - with a random color from this array: `["green", "blue" , "yellow" , "black" ]`
+    * call `set_eye_color` - with a random color from this array: `["green", "blue" , "yellow" , "black" ]`   
+    
 `Note:` : if an error was raised - you must catch the error, and try to assign again a new value
 * Run through the array with a loop, and print for each element the `age`,`name` and `eye_color`
