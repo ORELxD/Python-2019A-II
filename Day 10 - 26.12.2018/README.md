@@ -1,4 +1,4 @@
-# 
+# inheritance VS composition
 
 We have the following classes:
 * class A
