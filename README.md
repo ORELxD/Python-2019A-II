@@ -22,6 +22,7 @@
 * [list](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2004%20-%2014.11.2018/00_list.py)
 * [dictanory](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2004%20-%2014.11.2018/01_dictanory.py)
 * [object](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2004%20-%2014.11.2018/02_object%20with%20validation.py)
+* [init array and matrix with default values](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2010%20-%2026.12.2018/01_arr%20and%20matrix.py)
 * functions
   * [function decleration](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2004%20-%2014.11.2018/03_function.py)
   * [default parameter](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2004%20-%2014.11.2018/04_default%20parameter.py)
@@ -38,21 +39,20 @@
   * [algorithm - player VS computer](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2006%20-%2028.11.2018/XO%20Game%20algorithm%20-%20player%20VS%20computer.docx)
   * [algorithm to find the wanted location in the board](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2007%20-%2005.12.2018/XO%20Game%20algorithm.docx)
   * [python code for game - player VS player](https://github.com/AnnaKarpf/Python-2019A-II/tree/master/Day%2007%20-%2005.12.2018/00_XO%20game%20-%20full%20code)
-
-
-
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+* oop
+  * [declare class](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/04_oop_simplestclass.py)
+  * [methods in class](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/05_oop_method.py)
+  * [__init__](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/06_oop_init.py)
+  * [two ways to call a function of a class with an instance](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/07_oop_two%20ways%20to%20call%20func%20in%20class.py)
+  * [inheritance](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/08_oop_sub%20class.py)
+  * [overriding](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/09_oop_subclass.py)
+  * [call base-class __init__ from sub-class](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/10_oop_subclass.py)
+  * [class level property](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/11_oop_objvar.py)
+  * [class level methods](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/12_oop_objvar.py)
+  * [homework for classes + class level properties and methods](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2008%20-%2012.12.2018/README.md)
+  * [inheritance VS composition](https://github.com/AnnaKarpf/Python-2019A-II/edit/master/Day%2010%20-%2026.12.2018/README.md)
+* [using modules](https://github.com/AnnaKarpf/Python-2019A-II/tree/master/Day%2010%20-%2026.12.2018/00_cinema%20project%20-%20oop)
+* Exception handling
 * []()
 * []()
 * []()
