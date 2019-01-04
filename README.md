@@ -1,4 +1,5 @@
 # Python-2019A-II
+* [Basic python types and conditions](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2002%20-%2031.10.2018/README.md)
 * [input](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2002%20-%2031.10.2018/00_input.py)
 * [print string multiple times](https://github.com/AnnaKarpf/Python-2019A-II/blob/master/Day%2002%20-%2031.10.2018/01_input.py)
 * condition
