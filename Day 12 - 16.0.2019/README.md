@@ -148,3 +148,150 @@ For example, to the above input, print:
   
   
 #### Good luck!!
+
+
+
+# Example 1
+* given the following list:
+["abcabcabcabc","abcabc","abababab"]
+* get from the user a string as input
+* print the index of the element that contains the given input - the highest times
+
+```
+Enter string: ab
+output: 2 or 0
+
+Enter string: abc
+output: 0
+```
+***
+def get_count(my_str,my_search):
+    appear_counter=0
+    counter=0
+
+    while counter< len(my_str):
+        if my_str[counter]==my_search[0] and counter+len(my_search)-1 < len(my_str): 
+            inner_counter=0   
+            for inner_counter in range(0,len(my_search)):
+                if my_str[counter+inner_counter]!=my_search[inner_counter]:
+                    break
+                
+            if inner_counter==len(my_search)-1:
+                appear_counter+=1
+                counter+=len(my_search)
+            else:
+                counter+=1
+        else:
+            counter+=1
+    return appear_counter
+
+
+
+arr=["apple","applep","Orange","Banana"]
+search_str=input("Please enter a string: ")
+
+counter=0
+max_index=0
+
+for counter in range(0,len(arr)):
+    if get_count(arr[counter],search_str) > get_count(arr[max_index],search_str):
+        max_index=counter
+
+
+print("end of program", max_index)
+
+
+"""
+def get_count(my_str,my_search):
+    appear_counter=0
+    counter=0
+
+    while counter< len(my_str):
+        if my_str[counter]==my_search[0] and counter+len(my_search)-1 < len(my_str): 
+            inner_counter=0   
+            while inner_counter < len(my_search):
+                if my_str[counter+inner_counter]!=my_search[inner_counter]:
+                    break
+                inner_counter+=1
+
+            if inner_counter==len(my_search):
+                appear_counter+=1
+                counter+=len(my_search)
+            else:
+                counter+=1
+        else:
+            counter+=1
+    return appear_counter
+
+
+
+arr=["apple","applep","Orange","Banana"]
+search_str=input("Please enter a string: ")
+
+counter=0
+max_index=0
+
+while counter< len(arr):
+    if get_count(arr[counter],search_str) > get_count(arr[max_index],search_str):
+        max_index=counter
+    counter+= 1
+
+
+print("end of program", max_index)
+"""
+"""
+Search number of string appearence in another string:
+____________________________________________________
+my_str="AbaAbAbAbAb"
+my_search="Abc"
+appear_counter=0
+counter=0
+
+while counter< len(my_str):
+    if my_str[counter]==my_search[0] and counter+len(my_search)-1 < len(my_str): 
+        inner_counter=0   
+        while inner_counter < len(my_search):
+            if my_str[counter+inner_counter]!=my_search[inner_counter]:
+                break
+            inner_counter+=1
+
+        if inner_counter==len(my_search):
+            appear_counter+=1
+            counter+=len(my_search)
+        else:
+            counter+=1
+    else:
+        counter+=1
+print(appear_counter)
+"""
+"""
+Search number of char appearence in a string:
+____________________________________________________
+
+my_str="ArAAiel"
+my_search="A"
+counter=0
+for x in my_str:
+   if x==my_search:
+       counter+=1
+
+print("after loop",counter)
+
+"""
+
+"""
+arr=["apple","Orange","Banana"]
+search_str=input("Please enter a string: ")
+
+counter=0
+max_index=0
+
+while counter< len(arr):
+    if (arr[counter]).count(search_str) > (arr[max_index]).count(search_str):
+        max_index=counter
+    counter+= 1
+
+
+print("end of program", max_index)
+"""
+
