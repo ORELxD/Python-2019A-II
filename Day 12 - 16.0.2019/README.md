@@ -5,7 +5,7 @@
     * if the user enters `Y` - break the loop
     * else - ask the user for:
       * `column index` 
-      * `column row`
+      * `row index`
       * number to insert into this element in the matrix
 * After the loop print to the user the natrix according to his input.   
 For example:
@@ -143,7 +143,7 @@ For example, to the above input, print:
 * Note: add validation chcking to the user input:
   * `row index` - can be only between 0-8
   * `col index` - can be only between 0-8
-  * `element content` - can be only a number between 0-9 that does not appear in the col or row of the selected element
+  * `element content` - can be only a number between 0-9 that does not appear in the col or row of the selected element, or in the inner 3X3 matrix that contains this element 
   
   
   
